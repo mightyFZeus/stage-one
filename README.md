@@ -31,8 +31,7 @@ Containerization: Docker & Docker Compose
 
 Create a .env file in the root directory with the following variables:
 
-DATABASE_URL=postgres://avnadmin:AVNS_Yj4CE3tSyIJv@hngstage1-bolarinolabisi36-b19d.i.aivencloud.com:20516/defaultdb?sslmode=require
-PORT=8080
+DB_ADDR=
 
 
 ⚠️ Important: Never commit .env files to version control — make sure it’s included in your .gitignore.
