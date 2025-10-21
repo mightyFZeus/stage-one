@@ -1,17 +1,12 @@
-# fly.toml app configuration file generated for stage-one-rosyzq on 2025-10-21T16:16:11Z
+# fly.toml app configuration file generated for stage-one-3uqdiq on 2025-10-21T16:50:24Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'stage-one-rosyzq'
+app = 'stage-one-3uqdiq'
 primary_region = 'iad'
 
 [build]
-  [build.args]
-    GO_VERSION = '1.24.0'
-
-[env]
-  PORT = '8080'
 
 [http_service]
   internal_port = 8080
