@@ -62,7 +62,7 @@ func (app *application) CreateStringController(w http.ResponseWriter, r *http.Re
 		return
 	}
 
-	app.jsonResponse(w, http.StatusOK, word)
+	app.jsonResponse(w, http.StatusCreated, word)
 }
 func (app *application) GetStringHandler(w http.ResponseWriter, r *http.Request) {
 	ctx := r.Context()
