@@ -116,11 +116,11 @@ func ComputeSHA256(s string) string {
 }
 
 type Filters struct {
-	IsPalindrome      *bool
-	MinLength         *int64
-	MaxLength         *int64
-	WordCount         *int64
-	ContainsCharacter *string
+	IsPalindrome      *bool   `json:"is_palindrome"`
+	MinLength         *int64  `json:"min_length"`
+	MaxLength         *int64  `json:"max_length"`
+	WordCount         *int64  `json:"word_count"`
+	ContainsCharacter *string `json:"contains_character"`
 }
 
 func ParseNaturalLanguageQuery(query string) (*Filters, error) {
